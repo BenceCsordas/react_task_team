@@ -3,7 +3,7 @@ import React from 'react'
 const Add = () => {
   return (
     <div>
-      sdawdawdawdadd
+      <h1>Add task</h1>
     </div>
   )
 }
