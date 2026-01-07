@@ -3,7 +3,7 @@ import React from 'react'
 const Add = () => {
   return (
     <div>
-      <h6>Ez az új cucc haló a többit idk</h6>
+      <h6>Ez az új cucc haló a többit id</h6>
     </div>
   )
 }
