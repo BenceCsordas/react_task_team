@@ -4,10 +4,10 @@ const Add = () => {
   return (
     <div>
       <h2>
-        sdawdawdawdadd
+        sdawdawdawdadd as dad asd ad s
       </h2>
-      <h1>Add task</h1>
-      <h2>asd</h2>
+      <h1>Add sd asd ad ad asd asd asd task</h1>
+      <h2>asd ad asdasd as </h2>
     </div>
   )
 }
