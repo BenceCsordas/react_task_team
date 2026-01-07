@@ -3,7 +3,9 @@ import React from 'react'
 const Add = () => {
   return (
     <div>
-      sdawdawdawdadd
+      <h2>
+        sdawdawdawdadd
+      </h2>
     </div>
   )
 }
