@@ -7,6 +7,7 @@ const Add = () => {
         sdawdawdawdadd
       </h2>
       <h1>Add task</h1>
+      <h2>asd</h2>
     </div>
   )
 }
