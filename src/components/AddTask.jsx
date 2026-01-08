@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 
-export const Add = ({setTasks}) => {
+export const AddTask = ({setTasks}) => {
 
   const [text, setText] = useState("")
   const [assignedTo, setAssignedTo] = useState("")
