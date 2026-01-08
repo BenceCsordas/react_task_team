@@ -17,7 +17,7 @@ export const Add = ({setTasks}) => {
   //asd
   return (
     <div>
-      
+      <h1>HEloi</h1>
     </div>
   )
 }
