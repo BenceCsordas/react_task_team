@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import EditTask from './EditTask'
 
 const TaskItem = ({obj, setTasks}) => {
     const [isEditing, setIsEditing] = useState(false)
@@ -10,11 +11,11 @@ const TaskItem = ({obj, setTasks}) => {
     const handleDelete = () => {
         setTasks(prev=>prev.filter(a=>a.id!=obj.id))
     }
-    // if(isEditing){
-    //     return (
-    //         <EditTask obj={obj} setTasks={setTasks} setIsEditing={setIsEditing}/>
-    //     )
-    // }
+    if(isEditing){
+        return (
+            <EditTask obj={obj} setTasks={setTasks} setIsEditing={setIsEditing}/>
+        )
+    }
 
   return (
     <li style={{display:"flex", gap:"5px"}}>
