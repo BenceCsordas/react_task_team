@@ -18,8 +18,8 @@ const TaskItem = ({obj, setTasks}) => {
     }
 
   return (
-    <li style={{display:"flex", gap:"5px"}}>
-        <input type="checkbox" checked={obj.completed} onChange={toggleCompleted}/>
+    <li style={{display:"flex", gap:"5px"}} className='listStuff'>
+        <input type="checkbox" checked={obj.completed} onChange={toggleCompleted} style={{width:"100px"}}/>
         <span style={{textDecoration: obj.completed ? "line-through" : "none"}}>{obj.text}
             <em> (Felelős:{obj.assignedTo})</em>
         </span>
