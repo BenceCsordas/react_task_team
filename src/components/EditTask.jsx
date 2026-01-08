@@ -24,7 +24,7 @@ const EditTask = ({obj, setTasks, setIsEditing}) => {
         <form className='newTopicForm'>
             <input type="text" placeholder={obj.text} onChange={(e) => setText(e.target.value)} required/>
             <input type="text" placeholder={obj.assignedTo}  onChange={(e) => setAssignedTo(e.target.value)} required/>
-            <button type='submit' onClick={handleSubmit}>Szerkesztés</button>
+            <button onClick={handleSubmit}>Szerkesztés</button>
         </form>
     </div>
   )

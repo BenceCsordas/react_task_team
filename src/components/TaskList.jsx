@@ -6,7 +6,7 @@ const TaskList = ({tasks, setTasks}) => {
     <div>
     <ul>
       {tasks.map(obj=>
-        <TaskItem obj={obj} setTasks={setTasks} key={obj.id}/>
+        <TaskItem className='listStuff' obj={obj} setTasks={setTasks} key={obj.id}/>
       )}
 
     </ul>
