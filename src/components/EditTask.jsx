@@ -9,7 +9,7 @@ const EditTask = ({obj, setTasks, setIsEditing}) => {
       const handleSubmit=(e)=>{
         e.preventDefault()
         console.log("AsD")
-        if(!obj.text || !obj.assignedTo) return
+        if(!text || !assignedTo) return
         console.log("Asd")
         const editedTask={id:Date.now(), text, assignedTo, completed:false}
         setTasks(prev=>prev.map(a=>a.id==obj.id ? editedTask : a))
