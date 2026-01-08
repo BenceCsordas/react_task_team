@@ -2,13 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { Add } from './components/AddTask'
+import TaskList from './components/TaskList';
+import AddTask from './components/AddTask';
+import { initialTasks } from '../data';
+
 
 function App() {
- 
+  
+  const [tasks, setTasks] = useState(initialTasks)
+  
+
   return (
     <div>
-      <Add/>
+      <h1>Feladatlista</h1>
+      <AddTask setTasks={setTasks}/>
+      <TaskList tasks={tasks} setTasks={setTasks}/>
     </div>
   )
 }
