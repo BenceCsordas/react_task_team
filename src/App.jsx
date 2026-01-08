@@ -13,8 +13,9 @@ function App() {
   
 
   return (
-    <div>
-      <h1>Feladatlista</h1>
+    <div className='mainDiv'>
+      <h1 style={{fontSize:"4rem", color:"red"}}>Feladatlista</h1>
+      
       <AddTask setTasks={setTasks}/>
       <TaskList tasks={tasks} setTasks={setTasks}/>
     </div>
