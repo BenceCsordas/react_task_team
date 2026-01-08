@@ -3,8 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import TaskList from './components/TaskList';
-import AddTask from './components/AddTask';
 import { initialTasks } from '../data';
+import { AddTask } from './components/AddTask';
 
 
 function App() {
